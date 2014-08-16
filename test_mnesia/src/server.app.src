@@ -1,0 +1,12 @@
+{
+	application,server,
+	[
+		{description,"This is test_backup server."},
+		{vsn,"1.0"},
+		{modules,[server_sup,main,backup_server,create_random,acceptor,playerwork]},
+		{registered,[]},
+		{applications,[kernel,stdlib]},
+		{mod,{server_app,[]}},
+		{start_phases,[]}
+	]
+}.
